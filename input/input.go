@@ -1,11 +1,11 @@
-package main
+package Input
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func SimpleInput() {
 	var input float64
 	fmt.Printf("Type a number to check if it is odd or even:\n")
 	fmt.Scanln(&input)

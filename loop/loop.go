@@ -1,10 +1,10 @@
-package main
+package Loop
 
 import (
 	"fmt"
 )
 
-func main() {
+func SimpleLoops() {
 	var iteration int = 10
 
 	for {
