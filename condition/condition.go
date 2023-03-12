@@ -7,9 +7,9 @@ func IfAndElse() {
 	const number = 5
 
 	if number < 5 {
-		fmt.Println("Number is greater than 5")
-	} else {
 		fmt.Println("Number is lesser than 5")
+	} else {
+		fmt.Println("Number is greater than 5")
 	}
 }
 
