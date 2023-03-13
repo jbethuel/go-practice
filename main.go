@@ -5,9 +5,9 @@ import (
 		sample import
 		arrayMapAndStruct "go-practice/array_map_and_struct"
 	*/
-	Cli "go-practice/cli"
+	"fmt"
 )
 
 func main() {
-	Cli.Cli()
+	fmt.Println("Hello")
 }

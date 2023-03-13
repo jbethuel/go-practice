@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func Cli() {
+func GetMaxValue() {
 	fmt.Println(os.Args)
 	args := os.Args[1:]
 	var iArgs = []int{}
